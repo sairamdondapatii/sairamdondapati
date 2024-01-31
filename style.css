@@ -15,6 +15,7 @@ body{
     width: 100%;
     box-shadow: 0 10px 100px rgba(0,0,0,.1);
     background: #fff;
+    zindex:1000;
     
 }
 
@@ -401,7 +402,7 @@ textarea{
        
     }
     .about>div>h1{
-        padding-top: 50px;
+        padding-top: 60px;
     }
     .about>div>p{
         font-size: 16px;
@@ -410,7 +411,7 @@ textarea{
         grid-template-columns: 1fr;
     }
     .projectpage>div>h1{
-        padding-top: 50px;
+        padding-top: 60px;
     }
     .projectpage>p{
     width: 90%;
