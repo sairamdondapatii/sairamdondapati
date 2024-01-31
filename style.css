@@ -258,7 +258,7 @@ transform: translate(0, -5px);}
     background: #fff;
     padding: 4rem;
     margin-top: 6rem;
-    max-width: 80rem;
+    
     text-align: left;
     width: 50%;
     border-radius: 5px;
@@ -348,10 +348,16 @@ textarea{
         font-size: 20px;
     }
     
+<<<<<<< HEAD
     .home{
         height: 80vh;
     }
     
+=======
+    /*.home{
+    padding-bottom: 200px;
+    }*/
+>>>>>>> 056be1e90e19caf4c65da8ebbd733be1faed195b
     .icon{
         font-size: 30px;
         position: absolute;
@@ -469,7 +475,11 @@ textarea{
         background: #fff;
         padding: 30px;
         text-align: left;
+<<<<<<< HEAD
         width: auto;
+=======
+        width: 100%;
+>>>>>>> 056be1e90e19caf4c65da8ebbd733be1faed195b
         border-radius: 5px;
         margin-top: 20px;
     }
