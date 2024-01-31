@@ -345,9 +345,9 @@ textarea{
 
 @media screen and (max-width:820px){
     
-    .home{
+    /*.home{
     padding-bottom: 200px;
-    }
+    }*/
     .icon{
         font-size: 30px;
         position: absolute;
