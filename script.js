@@ -7,9 +7,6 @@ function toggle(){
 }
 
 
-function myfunction(){
-    window.alert("submitted sucessfully");
-}
 
 
 
