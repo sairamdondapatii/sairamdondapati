@@ -454,6 +454,10 @@ textarea{
         transition: transform .3s ease-out;
        margin-top: 10px;
     }
+    .contactmain-content{
+        width: 90%;
+        margin: auto;
+    }
     .contactmain-content>div>h1{
         padding-top: 30px;
         margin-bottom: 0;
@@ -477,6 +481,6 @@ textarea{
         padding: 10px 30px;
     }
     textarea{
-        resize: vertical;
+        resize: both;
     }
 }
