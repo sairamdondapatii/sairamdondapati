@@ -15,7 +15,7 @@ body{
     width: 100%;
     box-shadow: 0 10px 100px rgba(0,0,0,.1);
     background: #fff;
-    zindex:1000;
+    z-index:1000;
     
 }
 
