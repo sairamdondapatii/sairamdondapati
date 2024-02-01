@@ -10,6 +10,9 @@ body{
 }
 
 .header{
+overflow-x: hidden;
+position: -webkit-sticky;
+height:65px;
     position: sticky;
     top: 0px;
     width: 100%;
