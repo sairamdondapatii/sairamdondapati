@@ -18,7 +18,8 @@ for(let i=0; i<links.length; i++){
 }
 
 let form=document.getElementById('form');
-form.addEventListener('submit', ()=>{
+form.addEventListener('submit', (e)=>{
+    e.preventDefault()
     alert('Submitted sucessfully')
 })
 
