@@ -129,6 +129,15 @@ body{
     border-radius: 8px;
     
 }
+.socials>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+   
+}
+.socials .fa{
+    padding-left: 10px;
+}
 .socials>a>img{
     width: 50px;
 }
@@ -136,7 +145,6 @@ body{
     background-color: rgba(0, 106, 255, 0.2);
     border-radius: 5px;
 }
-
 .about{
    width: 90%;
    margin: auto;
@@ -350,10 +358,11 @@ textarea{
     color: #fff;
 }
 .footer-social>a{
-    color: #fff;
-    padding: 0 8px;
     text-decoration: none;
+    color: #fff;
+    font-size: 30px;
 }
+
 .footer-social>a>img{
     width: 30px;
 }
