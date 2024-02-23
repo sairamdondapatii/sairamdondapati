@@ -129,15 +129,6 @@ body{
     border-radius: 8px;
     
 }
-.socials>a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 40px;
-   
-}
-.socials .fa{
-    padding-left: 10px;
-}
 .socials>a>img{
     width: 50px;
 }
@@ -357,12 +348,6 @@ textarea{
     justify-content: space-between;
     color: #fff;
 }
-.footer-social>a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 30px;
-}
-
 .footer-social>a>img{
     width: 30px;
 }
