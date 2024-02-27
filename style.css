@@ -243,10 +243,11 @@ transform: translate(0, -5px);}
 .project1info{
     width: 80%;
     margin: auto;
+    text-align: center;
 }
 .project1info>h2{
     margin: 0px;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 600;
 }
 .project1info>p{
@@ -259,15 +260,16 @@ transform: translate(0, -5px);}
     color: #fff;
     font-size: 20px;
     letter-spacing: 1px;
-    background: linear-gradient(to right,#a517ba,#5f1782);
+    background: #818181;
     padding: 15px 70px;
     border-radius: 5px;
     display: inline-block;
-    transition: transform .3s ease-out;
     margin-top: 30px;
+   transition: transform .3s linear;
 }
 .project1info>div>a:hover{
     transform: translate(0, -5px);
+    background: linear-gradient(to right,#a517ba,#5f1782);
     
 }
 .contactpage{
