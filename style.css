@@ -229,6 +229,8 @@ transform: translate(0, -5px);}
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 80px;
+    align-items: center;
+    justify-content: center;
 }
 .project{
     max-width: 400px;
@@ -471,8 +473,11 @@ textarea{
     }
     .projects{
         width: 80%;
+        margin: auto;
         grid-template-columns: auto;
         gap: 40px;
+       align-items: center;
+       justify-content: center;
         
     }
     .contactmain-content{
