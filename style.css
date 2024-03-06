@@ -13,10 +13,10 @@ body{
 }
 
 .header{
-    position: fixed;
+    position: sticky;
     top: 0px;
     width: 100%;
-    background:transparent;
+    background:#fff;
     z-index:1000;
     
 }
@@ -398,14 +398,10 @@ textarea{
         cursor: pointer;
         color: #000;
     }
-    .icon.active{
-        border-radius: 5px;
-       background-color: #333;
-       color: #fff;
-    }
+    
     .header-content{
         padding: 0px;
-        
+        position: relative;
     }
     .header-logo{
         
@@ -413,14 +409,18 @@ textarea{
     }
     .header-links{
         visibility: hidden;
-        position: fixed;
-        top: 55px;
+        position: absolute;
+        top: -300px;
         left: 0;
         right: 0;
         width: 100%;
+        flex-direction: column;
+        text-align: right;
     }
     .header-links.active{
         visibility: visible;
+        top: 58px;
+        transition: top 0.8s;
     }
     
     .header-content1>ul>li>a{
@@ -429,14 +429,7 @@ textarea{
         padding: 25px 30px;
         margin-top: -1px;
         color: #222;
-        background-color: rgba(244, 239, 239, 0.5);
-        backdrop-filter: blur(8px);
-
-    }
-    .header-links{
-        flex-direction: column;
-        text-align: right;
-       
+        background: #fff;
     }
     .home>.homecontent{
         width: 100%;

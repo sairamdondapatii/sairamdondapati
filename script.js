@@ -1,8 +1,15 @@
 function toggle(){
     let icon=document.getElementById('icon');
     let headerlinks=document.getElementById('header-links');
+    let fa=document.getElementById('fa');
     headerlinks.classList.toggle('active');
-    icon.classList.toggle('active');
+    if(fa.classList=='fa fa-bars'){
+        fa.classList.remove('fa-bars');
+        fa.classList.add('fa-close');
+    }else{
+        fa.classList.remove('fa-close');
+        fa.classList.add('fa-bars');
+    }
 
 }
 
@@ -13,7 +20,7 @@ for(let i=0; i<links.length; i++){
     links[i].addEventListener('click', () =>{
         let headerlinks=document.getElementById('header-links');
         headerlinks.classList.remove('active');
-        icon.classList.remove('active');
+        
     })
 }
 
