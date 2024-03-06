@@ -75,6 +75,7 @@ body{
 .home{
     background: linear-gradient(to right,#a517ba,#5f1782);
     margin-top: -3px;
+    padding-top: 100px;
     
 }
 .home>.homecontent{
@@ -213,11 +214,6 @@ transform: translate(0, -5px);}
     width: 98%;
     margin: 10px auto 0px;
     padding: 100px;
-    background-image: url("images/background.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    border-radius: 10px;
     
 }
 .projectpage .projectheading{
@@ -252,8 +248,7 @@ transform: translate(0, -5px);}
     text-align: center;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgba(206,203,203,0.5);
-    backdrop-filter: blur(18px);
+    border: 1px solid grey;
 }
 .project img{
     width: 100%;

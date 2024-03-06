@@ -3,6 +3,11 @@ function toggle(){
     let headerlinks=document.getElementById('header-links');
     let fa=document.getElementById('fa');
     headerlinks.classList.toggle('active');
+    icontoggle()
+
+}
+
+function icontoggle(){
     if(fa.classList=='fa fa-bars'){
         fa.classList.remove('fa-bars');
         fa.classList.add('fa-close');
@@ -10,17 +15,14 @@ function toggle(){
         fa.classList.remove('fa-close');
         fa.classList.add('fa-bars');
     }
-
 }
-
-
 
 const links=document.querySelectorAll('.header-sm-links')
 for(let i=0; i<links.length; i++){
     links[i].addEventListener('click', () =>{
         let headerlinks=document.getElementById('header-links');
         headerlinks.classList.remove('active');
-        
+        icontoggle();
     })
 }
 
