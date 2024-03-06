@@ -73,11 +73,9 @@ body{
     background: linear-gradient(to right,#a517ba,#5f1782);
 }
 .home{
-    background-image: url("images/background.jpg");
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(to right,#a517ba,#5f1782);
     margin-top: -3px;
-    background-attachment: fixed;
+    
 }
 .home>.homecontent{
     width: 100%;
