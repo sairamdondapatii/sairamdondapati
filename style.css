@@ -129,15 +129,16 @@ body{
 .socials{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    background: transparent;
+    background: #002339;
     border-radius: 8px;
+    z-index: 100;
     
 }
 .socials>a>img{
-    width: 50px;
+    width: 40px;
 }
 .socials>a:hover{
     background-color: rgba(0, 106, 255, 0.2);
@@ -432,9 +433,7 @@ textarea{
         font-size: 15px;
         padding: 15px 35px;
     }
-    .socials{
-        display: none;
-    }
+    
     .about>div>h1{
         padding-top: 70px;
     }
