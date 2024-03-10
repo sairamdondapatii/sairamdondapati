@@ -55,9 +55,10 @@ body{
 }
 .header-links>li>a::after{
     content: "";
-    height: 2px;
+    height: 3px;
     width: 0%;
     background-color: #019f55;
+    border-radius: 5px;
     position: absolute;
     left: 0;
     bottom: 10px; 
@@ -67,11 +68,6 @@ body{
 .header-links>li>a:hover::after{
     width: 100%;
 }
-/* .header-links>li>a:hover{
-    color: #fff;
-    background: #019f55;
-    border-radius: 5px; 
-} */
 .arrow{
     position: fixed;
     right: 4%;
@@ -114,7 +110,7 @@ body{
 }
 .home>.homecontent>div>a{
     text-decoration: none;
-    color: #222;
+    color: #fff;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 1px;
@@ -163,7 +159,7 @@ body{
 }
 .line{
     margin: auto auto;
-    width: 100px;
+    width: 150px;
     height: 3px;
     background-color: #019f55;
 }
@@ -177,6 +173,7 @@ body{
 }
 .about>div>h1>img{
     margin-left: 20px;
+
 }
 .about>div>p,.projectpage>p,.contactmain-content>p{
     text-align: center;
@@ -216,7 +213,7 @@ body{
 }
 .aboutinfo>div>a{
     text-decoration: none;
-    color: #222;
+    color: #fff;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 1px;
@@ -347,7 +344,7 @@ textarea{
 }
 .btn1{
     border: none;
-    color: #222;
+    color: #fff;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 1px;
