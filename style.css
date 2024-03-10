@@ -109,7 +109,8 @@ body{
     backdrop-filter: blur(8px);
     padding: 15px 70px;
     border-radius: 5px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     transition: transform .3s ease-out;
 }
 .home>.homecontent>div>a:hover{
@@ -206,6 +207,7 @@ body{
     transition: transform .3s ease-out;
     margin-top: 30px;
 }
+
 .aboutinfo>div>a:hover,.btn1:hover,.project1info>a:hover{
 transform: translate(0, -5px);}
 
@@ -325,10 +327,14 @@ textarea{
     background: #019f55;
     padding: 15px 70px;
     border-radius: 5px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     transition: transform .3s ease-out;
     margin-top: 30px;
     cursor: pointer;
+}
+.btn1 img{
+    margin-left: 10px;
 }
 .footer{
     background: #002339;
