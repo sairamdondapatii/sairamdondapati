@@ -74,7 +74,6 @@ body{
 }
 .home{
     background: #002339;
-    margin-top: -3px;
     padding-top: 100px;
     
 }
@@ -101,7 +100,7 @@ body{
     
 }
 .home>.homecontent>div>a{
-   
+  
     text-decoration: none;
     color: #fff;
     font-size: 20px;
@@ -420,11 +419,11 @@ textarea{
         background: #002339;
     }
     .home>.homecontent{
-        width: 100%;
+        width: 70%;
         max-width: 300px;
     }
     .home>.homecontent>h1{
-        padding-top: 60px;
+        padding-top: 0px;
     }
     .home>.homecontent>div>p{
         font-size: 16px;
