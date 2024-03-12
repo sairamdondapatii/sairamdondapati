@@ -269,8 +269,7 @@ transform: translate(0, -5px);}
     justify-content: end;
     text-align: center;
     border-radius: 10px;
-    
-    border: 1px solid #002339;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .project img{
     width: 100%;
@@ -407,15 +406,17 @@ textarea{
     }
     
     .icon{
-        font-size: 25px;
         position: absolute;
-        top: 8%;
         right: 2%;
-        display: block;
+        display: inline-flex;
+        align-items: center;
         padding: 10px;
         cursor: pointer;
         color: #fff;
         z-index: 100;
+    }
+    .icon>span{
+        font-size: 30px;
     }
     
     .header-content{
@@ -426,22 +427,22 @@ textarea{
         padding: 20px;
     }
     .header-links{
-        visibility: hidden;
         position: absolute;
-        top: -300px;
-        left: 0;
+        top: 62.2px;
+        left: -100%;
         right: 0;
         width: 100%;
         flex-direction: column;
         text-align: left;
+        background-color: #002339;
     }
     .header-links>li>a{
         margin: 0;
     }
     .header-links.active{
         visibility: visible;
-        top: 63.2px;
-        transition: top 0.8s;
+        left: 0;
+        transition: left 0.2s;
     }
     
     .header-content1>ul>li>a{
@@ -450,7 +451,6 @@ textarea{
         padding: 25px 30px;
         margin-top: -1px;
         color: #fff;
-        background: #002339;
     }
     .home>.homecontent{
         width: 70%;
@@ -486,7 +486,7 @@ textarea{
         
     }
     .projectpage{
-        width: 92%;
+        width: 98%;
         padding: 70px 0 10px;
     }
     .projects{
