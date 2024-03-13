@@ -327,8 +327,13 @@ box-shadow: 4px 4px 10px #03c86c;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8));
     padding-bottom:80px ;
 }
+.contactsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 .contactmain-content{
-    width: 72%;
+    width: 92%;
     margin: auto;
 }
 .contactmain-content>div>h1{
@@ -340,12 +345,12 @@ box-shadow: 4px 4px 10px #03c86c;
 .contactform{
     box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
     background: #fff;
-    padding: 4rem;
+    padding: 2rem;
     margin-top: 6rem;
     text-align: left;
-    width: 90%;
+    width: 40%;
     border-radius: 5px;
-    margin: 5rem auto 0 auto;
+    margin: 5rem 0 0 0;
 }
 .form>div>label{
     color: #666;
@@ -381,7 +386,7 @@ textarea{
     font-size: 20px;
     letter-spacing: 1px;
     background: #019f55;
-    padding: 15px 70px;
+    padding: 15px 40px;
     border-radius: 5px;
     display: inline-flex;
     align-items: center;
@@ -537,6 +542,13 @@ textarea{
     .contactmain-content{
         width: 90%;
         margin: auto;
+    }
+
+    .contactsection div img{
+        display: none;
+    }
+    .contactsection{
+        justify-content: center;
     }
     .contactmain-content>div>h1{
         padding-top: 70px;
