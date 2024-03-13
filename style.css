@@ -133,7 +133,7 @@ body{
    
 }
 .wave-image>img{
-    margin-bottom: -8px;
+    margin-bottom: -10px;
 }
 .socials{
     display: flex;
@@ -183,7 +183,7 @@ body{
 }
 .aboutcontent{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 50px;
 }
 .aboutskills>.skills{
@@ -294,6 +294,9 @@ box-shadow: 4px 4px 10px #03c86c;
     margin: 0;
     color:  #6B7280;
 }
+.project div{
+    display: flex;
+}
 .project a{
     margin-bottom: 20px;
     margin-left: 20px;
@@ -301,13 +304,16 @@ box-shadow: 4px 4px 10px #03c86c;
     font-size: 16px;
     display: inline-flex;
     align-items: center;
-    justify-content: space-around;
-    width: 150px;
+    justify-content: center;
+    width: 140px;
     border: 1px solid  #2563Eb;
     background-color: #2563Eb;
     color: #fff;
     padding: 8px 8px;
     border-radius: 8px;
+}
+.project a span{
+    margin-left: 5px;
 }
 .project:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
