@@ -242,7 +242,6 @@ box-shadow: 4px 4px 10px #03c86c;
     background: url("images/background.jpg");
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
 }
 .projectpage .projectheading{
     text-align: center;
