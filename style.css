@@ -70,7 +70,7 @@ body{
 }
 .arrow{
     position: fixed;
-    right: 4%;
+    right: 3%;
     bottom: 3%;
     z-index: 100;
 }
@@ -133,7 +133,7 @@ body{
    
 }
 .wave-image>img{
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 .socials{
     display: flex;
