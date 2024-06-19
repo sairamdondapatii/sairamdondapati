@@ -133,7 +133,7 @@ body{
    
 }
 .wave-image>img{
-    margin-bottom: -5px;
+    margin-bottom: -10px;
 }
 .socials{
     display: flex;
@@ -504,7 +504,7 @@ textarea{
         padding: 15px 35px;
     }
     .wave-image>img{
-        margin-bottom: -10px;
+        margin-bottom: -15px;
     }
     .about>div>h1{
         padding-top: 70px;
