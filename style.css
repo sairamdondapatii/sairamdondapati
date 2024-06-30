@@ -208,7 +208,7 @@ body{
 }
 .aboutinfo>div>p{
     font-size: 18px;
-    color: rgb(79, 79, 79);
+    color: black;
     
 }
 .aboutinfo>div>a{
@@ -264,8 +264,7 @@ box-shadow: 4px 4px 10px #03c86c;
 }
 .project{
     max-width: 400px;
-    min-height: 350px;
-    max-height: 400px;
+    height: 280px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -281,7 +280,7 @@ box-shadow: 4px 4px 10px #03c86c;
     
 }
 .project h2{
-    margin: 40px 20px 0px;
+    margin: 30px 20px 0px;
     color: #002339;
     transition: 0.9s;
 }
@@ -292,9 +291,9 @@ box-shadow: 4px 4px 10px #03c86c;
     
 }
 .project div{
-    margin: auto;
-    margin-top: 150px;
+    margin: 20px auto auto;
     transition: 0.9s;
+    display: none;
 }
 .project div:hover{
     transform: translate(0, -5px);
@@ -317,13 +316,13 @@ box-shadow: 4px 4px 10px #03c86c;
     transition: 0.9s;
 }
 .project:hover.project img{
-    transform: scale(1.1);
+    margin-top: -130px;
 }
 .project:hover.project div{
-    margin: 20px auto;
+    display: block;
 }
 .project:hover.project h2{
-    margin-top: 80px;
+    margin-top: 40px;
 }
 .project a span{
     margin-left: 5px;
@@ -439,14 +438,18 @@ box-shadow: 4px 4px 10px #03c86c;
 }
 
 @media screen and (max-width:1430px){
+    .projectpage{
+        padding: 60px;
+    }
     .projects{
         width: 95%;
         margin: auto auto;
         grid-template-columns: auto auto;
-        gap: 40px;
-        align-items: center;
-        justify-content: center;
     }
+    .wave-image>img{
+        margin-bottom: -20px;
+    }
+   
 }
 
 @media screen and (max-width:820px){
@@ -515,7 +518,7 @@ box-shadow: 4px 4px 10px #03c86c;
         padding: 15px 35px;
     }
     .wave-image>img{
-        margin-bottom: -15px;
+        margin-bottom: -6px;
     }
     .about>div>h1{
         padding-top: 70px;
@@ -551,12 +554,19 @@ box-shadow: 4px 4px 10px #03c86c;
         justify-content: center;
         
     }
+    .project{
+        height: 330px;
+    }
     .project p{
         height: auto;
         padding-bottom: 10px;
     }
     .project div{
         margin: auto  auto 10px;
+        display: block;
+    }
+   .project:hover.project img{
+        margin-top: 0px;
     }
     .contactmain-content{
         width: 90%;
