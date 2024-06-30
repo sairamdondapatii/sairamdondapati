@@ -133,7 +133,7 @@ body{
    
 }
 .wave-image>img{
-    margin-bottom: -25px;
+    margin-bottom: -10px;
 }
 .socials{
     display: flex;
@@ -264,6 +264,7 @@ box-shadow: 4px 4px 10px #03c86c;
 }
 .project{
     max-width: 400px;
+    min-height: 350px;
     max-height: 400px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
     display: flex;
@@ -288,7 +289,7 @@ box-shadow: 4px 4px 10px #03c86c;
     padding: 20px;
     margin: 0;
     color:  #6B7280;
-    height: 60px;
+    
 }
 .project div{
     margin: auto;
@@ -312,7 +313,7 @@ box-shadow: 4px 4px 10px #03c86c;
     transition: 0.9s;
 }
 .project img{
-    height: 150px;
+    height: 130px;
     transition: 0.9s;
 }
 .project:hover.project img{
@@ -372,18 +373,15 @@ box-shadow: 4px 4px 10px #03c86c;
 }
 .form>div>input,.form>div>textarea{
     color: #333;
-    padding: 18px 3px;
+    padding: 12px 3px;
     width: 100%;
     border: 1px solid #ebebeb;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 0;
     background: #f0f0f0;
     border-radius: 5px;
     font-weight: 600;
     margin-bottom: 20px;
-}
-textarea{
-    resize: none;
 }
 .btn{
     text-align: right; 
@@ -395,7 +393,7 @@ textarea{
     font-size: 20px;
     letter-spacing: 1px;
     background: #019f55;
-    padding: 15px 40px;
+    padding: 8px 40px;
     border-radius: 5px;
     display: inline-flex;
     align-items: center;
@@ -431,7 +429,6 @@ textarea{
     color: #fff;
 }
 .copy>a{
-    text-decoration: none;
     color: #fff;
 }
 .hr{
@@ -441,8 +438,15 @@ textarea{
     display: none;
 }
 
-@media screen and (max-width:1024px){
-    
+@media screen and (max-width:1430px){
+    .projects{
+        width: 95%;
+        margin: auto auto;
+        grid-template-columns: auto auto;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media screen and (max-width:820px){
@@ -581,17 +585,14 @@ textarea{
         border-radius: 5px;
         margin-top: 20px;
     }
-    .form div input,textarea{
-        padding: 20px 3px;
-        font-size: 20px;
+    .form div input, .form div textarea{
+        padding: 10px 3px;
+        font-size: 16px;
     }
-    .form div textarea{
-        padding: 20px 3px;
-        font-size: 20px;
-    }
+    
     .btn1{
         margin-top: 5px;
-        padding: 10px 20px;
+        padding: 7px 25px;
 
     }
     .footer-up{
