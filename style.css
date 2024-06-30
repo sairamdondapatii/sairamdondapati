@@ -264,7 +264,7 @@ box-shadow: 4px 4px 10px #03c86c;
 }
 .project{
     max-width: 400px;
-    min-height: 450px;
+    max-height: 400px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -272,34 +272,28 @@ box-shadow: 4px 4px 10px #03c86c;
     border-radius: 10px;
     border: 1px solid rgb(235, 235, 235);
     overflow: hidden;
+    transition: 0.9s;
 }
 .project:hover{
     border-bottom: 3px solid #03c86c;
     cursor: pointer;
-}
-.project:hover.project img{
-    transform: scale(1.1);
-   
-}
-.project img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-    transition: 0.5s;
+    
 }
 .project h2{
-    margin: 80px 20px 0px;
+    margin: 40px 20px 0px;
     color: #002339;
+    transition: 0.9s;
 }
 .project p{
     padding: 20px;
     margin: 0;
     color:  #6B7280;
+    height: 60px;
 }
 .project div{
-    margin: auto auto;
-    transition: 0.5s;
+    margin: auto;
+    margin-top: 150px;
+    transition: 0.9s;
 }
 .project div:hover{
     transform: translate(0, -5px);
@@ -312,10 +306,23 @@ box-shadow: 4px 4px 10px #03c86c;
     justify-content: center;
     width: 140px;
     border: 1px solid  #2563Eb;
-    
     color: #121212;
     padding: 8px 8px;
     border-radius: 8px;
+    transition: 0.9s;
+}
+.project img{
+    height: 150px;
+    transition: 0.9s;
+}
+.project:hover.project img{
+    transform: scale(1.1);
+}
+.project:hover.project div{
+    margin: 20px auto;
+}
+.project:hover.project h2{
+    margin-top: 80px;
 }
 .project a span{
     margin-left: 5px;
@@ -539,6 +546,13 @@ textarea{
         align-items: center;
         justify-content: center;
         
+    }
+    .project p{
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .project div{
+        margin: auto  auto 10px;
     }
     .contactmain-content{
         width: 90%;
