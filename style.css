@@ -557,6 +557,9 @@ box-shadow: 4px 4px 10px #03c86c;
     .project{
         height: 330px;
     }
+    .project:hover.project h2{
+        margin-top: 30px;
+    }
     .project p{
         height: auto;
         padding-bottom: 10px;
