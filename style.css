@@ -30,7 +30,7 @@ body{
 .header-text{
     font-size: 20px;
     font-style: italic;
-    font-family: cursive;
+    
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;   
@@ -298,6 +298,7 @@ box-shadow: 4px 4px 10px #03c86c;
 .project h2{
     margin: 10px 20px 0px;
     color: #002339;
+    transition: ease-in-out 0.9s;
     
 }
 .project p{
@@ -311,7 +312,7 @@ box-shadow: 4px 4px 10px #03c86c;
     display: flex;
     justify-content: space-around;
     visibility: hidden;
-    
+    transition: ease-in-out 0.9s;
 }
 
 .project a{
@@ -325,7 +326,7 @@ box-shadow: 4px 4px 10px #03c86c;
     color: #121212;
     padding: 8px 8px;
     border-radius: 8px;
-    transition: 0.9s;
+    
 }
 .project img{
     height: 130px;
@@ -588,6 +589,9 @@ box-shadow: 4px 4px 10px #03c86c;
     }
    .project:hover.project img{
         margin-top: 0px;
+    }
+    .projects>.project>div>a:nth-of-type(2){
+        display: none;
     }
     .contactmain-content{
         width: 90%;
