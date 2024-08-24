@@ -237,7 +237,7 @@ body{
     display: flex;
     align-items: center;
     transition: transform .3s;
-    margin: 20px;
+    border: none;
 }
 .aboutinfo>div>a>img{
     margin-right: 7px;
@@ -276,7 +276,7 @@ color: #121212;
 }
 #modal-content{
     width: 90%;
-    height: 400px;
+    height: 430px;
     margin: auto;
     overflow-y: scroll;
     border-radius: 15px;
@@ -298,7 +298,7 @@ color: #121212;
 .modal-btns{
     display: flex;
     justify-content: space-around;
-    
+    padding: 10px 10px 20px;
 }
 
 
