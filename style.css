@@ -237,7 +237,7 @@ body{
     display: flex;
     align-items: center;
     transition: transform .3s;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .aboutinfo>div>a>img{
     margin-right: 7px;
@@ -266,9 +266,9 @@ box-shadow: 4px 4px 10px #03c86c;
 }
 #modal-box{
     width: 500px;
-    background-color: #fff;
+    background-color: #002339;
     position: relative;
-    padding: 30px;
+    padding: 40px 20px;
     margin: 15px;
     border-radius: 15px;
     
@@ -278,6 +278,7 @@ box-shadow: 4px 4px 10px #03c86c;
     height: 400px;
     margin: auto;
     overflow-y: scroll;
+    border-radius: 15px;
    
 }
 #modal-content::-webkit-scrollbar {
@@ -288,11 +289,15 @@ box-shadow: 4px 4px 10px #03c86c;
     right: 2%;
     top: 2%;
     cursor: pointer;
+    color: #fff;
+}
+#modal-content>img{
+    border-radius: 15px;
 }
 .modal-btns{
     display: flex;
     justify-content: space-around;
-    padding: 10px 0px;
+    
 }
 
 
