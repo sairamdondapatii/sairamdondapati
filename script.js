@@ -21,7 +21,16 @@ for(let i=0; i<links.length; i++){
         icontoggle();
     })
 }
+function popup(){
+    document.querySelector('#modal-container').style.display='flex';
 
+ }
+ document.querySelector('#close').addEventListener('click',close);
+
+    function close(){
+        document.querySelector('#modal-container').style.display='none';
+        console.log('clicked')
+    }
 
 
 
