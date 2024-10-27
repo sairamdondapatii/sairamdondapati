@@ -1,5 +1,5 @@
 *{
-    font-family: 'poppins',sans-serif;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -285,6 +285,10 @@ box-shadow: 4px 4px 10px #03c86c;
     margin: 10px 20px 0px;
     color: #002339;
     transition: 0.9s;
+    height: 30px;
+    overflow-y: hidden;
+    text-align: center;
+    word-break: break-all;
 }
 .project p{
     padding: 20px;
@@ -429,7 +433,7 @@ box-shadow: 4px 4px 10px #03c86c;
     padding-bottom: 30px;
     color: #fff;
 }
-.copy>a{
+.copy>small>a{
     color: #fff;
 }
 .hr{
