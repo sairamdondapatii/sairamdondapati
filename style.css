@@ -352,10 +352,13 @@ color: #121212;
     margin: 10px 20px 0px;
     color: #002339;
     transition: ease-in-out 0.9s;
-    
+    min-height: 30px;
+    word-break: break-all;
+    overflow-y: hidden;
+    text-align: center;
 }
 .project p{
-    padding: 20px;
+    padding: 10px 20px 20px;
     margin: 0;
     color:  #6B7280;
     
@@ -382,6 +385,9 @@ color: #121212;
 }
 .project img{
     height: 130px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
     transition:ease-in-out 0.9s;
 }
 .project:hover.project img{
@@ -498,8 +504,11 @@ color: #121212;
     padding-bottom: 30px;
     color: #fff;
 }
-.copy>a{
+.copy>small>a{
     color: #fff;
+    background-color: #03c86c;
+    padding:0px 8px;
+    border-radius: 2px;
 }
 .hr{
     color: red;
