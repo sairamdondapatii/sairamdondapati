@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
-    font-family: "Inter", sans-serif;
+    font-family: 'poppins',sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -352,10 +352,7 @@ color: #121212;
     margin: 10px 20px 0px;
     color: #002339;
     transition: ease-in-out 0.9s;
-    min-height: 30px;
-    word-break: break-all;
-    overflow-y: hidden;
-    text-align: center;
+    
 }
 .project p{
     padding: 10px 20px 20px;
